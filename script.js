@@ -65,11 +65,10 @@ window.onload = function() {
     });
 
     dragger.on('drop',function(from, to) {
-      console.log(from);
-      console.log(to);
-      // tracks.indexOf(from)[id] = to;
-      // tracks.indexOf(to)[id] = from;
-      console.log(tracks)
+      let first = tracks[from - 1];
+      let second = tracks[to - 1];
+      first['id'] = to;
+      second['id'] = from;
     });
 
     const url = `https://open.spotify.com/`;
