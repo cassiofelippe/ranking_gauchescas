@@ -1,0 +1,51 @@
+table#ranking {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 99%;
+  background-color: transparent;
+  color: black;
+  text-align: right;
+}
+
+div.main {
+  width: 100%;
+}
+
+div.half {
+  width: 50%;
+}
+
+div.full {
+  width: 100%;
+}
+
+th.number, td.number {
+  text-align: center;
+}
+
+th.track, td.track {
+  text-align: center;
+}
+
+th.artist, td.artist {
+  text-align: center;
+}
+
+th.actions, td.actions {
+  text-align: center;
+}
+
+th.drag, td.drag {
+  text-align: center;
+}
+
+svg:hover {
+  cursor: pointer;
+}
